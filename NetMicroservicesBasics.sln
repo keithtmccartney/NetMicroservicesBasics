@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetMicroservicesBasics", "NetMicroservicesBasics", "{450869BF-E744-47D1-A750-9441279779F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source_code", "source_code", "{47430D75-FF5D-4E19-BCA4-FE2C31FC34E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Catalog", "Play.Catalog", "{E2834680-803E-4116-8733-8C7AD51C8CEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{484AA544-152B-42AC-B3F2-6BBD9BA5DBEE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Catalog.Contracts", "NetMicroservicesBasics\source_code\Play.Catalog\src\Play.Catalog.Contracts\Play.Catalog.Contracts.csproj", "{9344DE67-0D23-429E-9593-5C6A3F3C92CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Catalog.Service", "NetMicroservicesBasics\source_code\Play.Catalog\src\Play.Catalog.Service\Play.Catalog.Service.csproj", "{591E0908-B3C0-4B33-8938-0691E08A71CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Common", "Play.Common", "{0C8CB41F-ECBC-4B21-AA3E-CBA064FB5E4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{43B96654-EBB4-4064-9872-B0394EA1F0B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Common", "NetMicroservicesBasics\source_code\Play.Common\src\Play.Common\Play.Common.csproj", "{6F6DCBDF-C3AC-4760-B499-563C20E3A08C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Play.Inventory", "Play.Inventory", "{328F8886-1683-4F5A-A189-7A0E84AF56D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A1840061-B7E1-4D26-9940-CF8A802D216E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Inventory.Service", "NetMicroservicesBasics\source_code\Play.Inventory\src\Play.Inventory.Service\Play.Inventory.Service.csproj", "{7FF90E7B-962D-4E76-8A64-D3FB6EC0468D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9344DE67-0D23-429E-9593-5C6A3F3C92CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9344DE67-0D23-429E-9593-5C6A3F3C92CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9344DE67-0D23-429E-9593-5C6A3F3C92CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9344DE67-0D23-429E-9593-5C6A3F3C92CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{591E0908-B3C0-4B33-8938-0691E08A71CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591E0908-B3C0-4B33-8938-0691E08A71CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591E0908-B3C0-4B33-8938-0691E08A71CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591E0908-B3C0-4B33-8938-0691E08A71CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F6DCBDF-C3AC-4760-B499-563C20E3A08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6DCBDF-C3AC-4760-B499-563C20E3A08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6DCBDF-C3AC-4760-B499-563C20E3A08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6DCBDF-C3AC-4760-B499-563C20E3A08C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF90E7B-962D-4E76-8A64-D3FB6EC0468D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF90E7B-962D-4E76-8A64-D3FB6EC0468D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FF90E7B-962D-4E76-8A64-D3FB6EC0468D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FF90E7B-962D-4E76-8A64-D3FB6EC0468D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47430D75-FF5D-4E19-BCA4-FE2C31FC34E3} = {450869BF-E744-47D1-A750-9441279779F0}
+		{E2834680-803E-4116-8733-8C7AD51C8CEF} = {47430D75-FF5D-4E19-BCA4-FE2C31FC34E3}
+		{484AA544-152B-42AC-B3F2-6BBD9BA5DBEE} = {E2834680-803E-4116-8733-8C7AD51C8CEF}
+		{9344DE67-0D23-429E-9593-5C6A3F3C92CF} = {484AA544-152B-42AC-B3F2-6BBD9BA5DBEE}
+		{591E0908-B3C0-4B33-8938-0691E08A71CF} = {484AA544-152B-42AC-B3F2-6BBD9BA5DBEE}
+		{0C8CB41F-ECBC-4B21-AA3E-CBA064FB5E4F} = {47430D75-FF5D-4E19-BCA4-FE2C31FC34E3}
+		{43B96654-EBB4-4064-9872-B0394EA1F0B5} = {0C8CB41F-ECBC-4B21-AA3E-CBA064FB5E4F}
+		{6F6DCBDF-C3AC-4760-B499-563C20E3A08C} = {43B96654-EBB4-4064-9872-B0394EA1F0B5}
+		{328F8886-1683-4F5A-A189-7A0E84AF56D0} = {47430D75-FF5D-4E19-BCA4-FE2C31FC34E3}
+		{A1840061-B7E1-4D26-9940-CF8A802D216E} = {328F8886-1683-4F5A-A189-7A0E84AF56D0}
+		{7FF90E7B-962D-4E76-8A64-D3FB6EC0468D} = {A1840061-B7E1-4D26-9940-CF8A802D216E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A68E691-5B93-4F14-9162-58AB158A7F70}
+	EndGlobalSection
+EndGlobal
